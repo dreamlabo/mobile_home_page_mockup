@@ -518,5 +518,34 @@ grid-column: 2/3;
     /* padding: 0 1rem; */
   }
 
+/**********************/
+/*   Meetings Page    */
+/**********************/
+
+.meetings-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.meetings__flex-container {
+  max-width: 450px
+}
+
+.meeting__details-container {
+  margin-top: 2rem;
+}
+
+.meeting__inner-container {
+  margin-bottom: .5rem;
+  margin-left: 2rem;
+}
+
+.meeting__inner-container > p {
+  margin-left: 2rem;
+}
+
+
+
 
 

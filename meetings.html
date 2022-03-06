@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meetings</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="mobile_menu_script.js" defer></script>
+    <title>CARS Events</title>
 </head>
 <body>
-    <div>Meetings Page</div>
+    
+    <div class="navigation-container uppercase">
+        <div class="about__heading"><a href="/home.html">Colorado Art Rock Society</a> </div>
+        <nav>
+            <div class="nav-bars" id="mobile-menu">
+                <div class="bar bar-one"></div>
+                <div class="bar bar-two"></div>
+                <div class="bar bar-three"></div>
+            </div>
+            <ul class="mobile-nav-links">
+                <li class="mobile-nav-link"><a href="/home.html"><span aria-hidden="true">00</span>Home</a></li>
+                <li class="mobile-nav-link"><a href="/meetings.html"><span aria-hidden="true">01</span>Meetings</a></li>
+                <li class="mobile-nav-link"><a href="/events.html"><span aria-hidden="true">02</span>Events</a></li>
+                <li class="mobile-nav-link"><a href="/about.html"><span aria-hidden="true">03</span>About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="meetings-container">
+        <div class="meetings__flex-container">
+            <h1 class="meetings__heading">Meetings</h1>
+            <p>The Colorado Art Rock Society generally meets 
+                at 6pm on the last Saturday of each month 
+                and are open to anyone with an open mind 
+                to music.</p>
+            <div class="meeting__details-container">
+                <h2 class="meetings__sub-heading">Next Meeting</h2>
+                <div class="meeting__inner-container">
+                    <h3>Date:</h3>
+                    <p>Saturday, November 27</p>
+                    <p>6:00pm</p>
+                </div>
+                <div class="meeting__inner-container">
+                    <h3>Location</h3>
+                    <p>Kent is hosting this month.</p>
+                </div>
+
+                <div class="meeting__inner-container">
+                    <h3>Additional Info</h3>
+                    <p>For directions to join the meeting, 
+                        and to RSVP, contact Kent at 
+                        kent.adamson@comcast.net.
+                    </p>
+                </div>
+            </div>    
+        </div>
+    
+    
+    
+    </div>
     
 </body>
 </html>
