@@ -3,7 +3,7 @@ const navToggle = document.querySelector(".mobile-nav-links")
 let menuIsOpen = Boolean(false);
 
 mobileMenu.addEventListener("click", () => {
-    console.log("menu clicked");
+    // console.log("menu clicked");
     if(menuIsOpen){
         mobileMenu.classList.remove('is-active');
         menuIsOpen = false;
