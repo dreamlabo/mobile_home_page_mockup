@@ -225,6 +225,7 @@ a {
  
     display: flex;
     align-items: center;
+    /* justify-content: flex-end; */
 }
 
 .cars-title {
@@ -233,7 +234,7 @@ a {
     line-height: 1;
     text-transform: uppercase;
     white-space: nowrap;
-    padding: 4rem .5rem 3rem .5rem;
+    padding: 3rem .5rem 1.5rem .5rem;
     margin: 0 auto;
 
     /* border: 1px solid yellow; */
