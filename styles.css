@@ -458,6 +458,7 @@ grid-column: 2/3;
   }
 
   .events-flex-container {
+    max-width: 500px;
 
   }
   
