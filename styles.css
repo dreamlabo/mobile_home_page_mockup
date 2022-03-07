@@ -204,13 +204,13 @@ a {
 
 
 
-@supports (backdrop-filter: blur(1rem)) {
+/* @supports (backdrop-filter: blur(1rem)) {
     .mobile-nav-links {
         background: hsl( var(--clr-white) / 0.05);
         backdrop-filter: blur(1.5rem);
         opacity: 1;
     }
-}
+} */
 
 
 
