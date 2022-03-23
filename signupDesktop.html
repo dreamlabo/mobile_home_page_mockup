@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="mobile_menu_script.js" defer></script>
+    <title>C.A.R.S Signup</title>
+</head>
+<body>
+
+    <div class="navigation-container uppercase">
+        <div class="about__heading"><a href="/home.html">Colorado Art Rock Society</a> </div>
+        <nav>
+            <div class="nav-bars" id="mobile-menu">
+                <div class="bar bar-one"></div>
+                <div class="bar bar-two"></div>
+                <div class="bar bar-three"></div>
+            </div>
+            <ul class="mobile-nav-links">
+                <li class="mobile-nav-link"><a href="/home.html"><span aria-hidden="true">00</span>Home</a></li>
+                <li class="mobile-nav-link"><a href="/meetings.html"><span aria-hidden="true">01</span>Meetings</a></li>
+                <li class="mobile-nav-link"><a href="/events.html"><span aria-hidden="true">02</span>Events</a></li>
+                <li class="mobile-nav-link"><a href="/about.html"><span aria-hidden="true">03</span>About</a></li>
+                <li class="mobile-nav-link"><a href="/signup.html"><span aria-hidden="true">04</span>Signup</a></li>
+                <li class="mobile-nav-link"><a href="/signin.html"><span aria-hidden="true">05</span>Signin</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="signup__outer-wrapper">
+        <div class="signup__sec-wrapper">
+           <img src="/images/cars logo.png" alt="">
+        
+           <div class="signup__form-container">
+       
+                <div class="signup__flex-container">
+                    <h1 class="signup__heading">Become A Member</h1>
+                    <p>Become a member to recieve updates about upcoming 
+                        meetings, events, and access to exclusive content.
+                    </p>
+
+                    <form action="" class="signup-form">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+
+                        <label for="reenter-passord">Re-enter password</label>
+                        <input type="password" id="reenter-passord" name="reenter-passord">
+
+                        <label for="userDesc">Tell us about yourself</label>
+                        <textarea type="text" id="userDesc" name="userDesc"></textarea>
+                        <button class="signup__submit-btn"><a href="#">Submit</a></button>
+                    </form>      
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    
+</body>
+</html>
